@@ -1,28 +1,36 @@
 .box{
+    background-color: aqua;
     height: 200px;
     width: 300px;
 }
 
 .responsive-box{
+    color: aliceblue;
+    background-color: red;
     width: 50%;
     height: 50%;
 }
 
 .padded-text{
+    background-color: brown;
     padding: 20px
 }
 
 .custom-padding{
+    background-color: aqua;
     padding: 10px 20px 10px 20px
 }
 
 .border-box{
+    color: aliceblue;
+    background-color: red;
     border : 2px solid black;
 }
 
 .rounded-border{
+    background-color: aqua;
+    border: 3px red; 
     border-style: dotted;
-    border: 3px red;
     border-radius: 15px;
 }
 
@@ -31,10 +39,12 @@
 }
 
 .custom-margin{
+    background-color: aqua;
     margin: 20px 40px 20px 40px;
 }
 
 .inline-element{
+    background-color: aqua;
     display: inline;
 }
 
@@ -43,14 +53,17 @@
 }
 
 .inline-block-element{
+    background-color: aqua;
     display: inline-block;
 }
 
 .hidden-element{
+    background-color: aqua;
     display: none;
 }
 
 .visible-element{
+    background-color: aqua;
     visibility: visible;
 }
 
@@ -59,5 +72,7 @@
 }
 
 .transparent-box{
-    background-color: blue .5;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.5);
 }
