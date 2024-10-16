@@ -1,0 +1,63 @@
+.box{
+    height: 200px;
+    width: 300px;
+}
+
+.responsive-box{
+    width: 50%;
+    height: 50%;
+}
+
+.padded-text{
+    padding: 20px
+}
+
+.custom-padding{
+    padding: 10px 20px 10px 20px
+}
+
+.border-box{
+    border : 2px solid black;
+}
+
+.rounded-border{
+    border-style: dotted;
+    border: 3px red;
+    border-radius: 15px;
+}
+
+.margin-text{
+    margin: 30px;
+}
+
+.custom-margin{
+    margin: 20px 40px 20px 40px;
+}
+
+.inline-element{
+    display: inline;
+}
+
+.block-element{
+    display: block;
+}
+
+.inline-block-element{
+    display: inline-block;
+}
+
+.hidden-element{
+    display: none;
+}
+
+.visible-element{
+    visibility: visible;
+}
+
+.invisible-element{
+    visibility: hidden;
+}
+
+.transparent-box{
+    background-color: blue .5;
+}
